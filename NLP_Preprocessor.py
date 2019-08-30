@@ -75,7 +75,9 @@ def symbolReplacer(rawText,replaceString = "", extraChars = ""):
         extraChars = extraChars.replace(".","")
         extraChars = "." + extraChars
         
-    text = re.sub("[^a-zA-Z\d\s" + extraChars + "]" , replaceString, rawText)
+    regVal = "[^a-zA-Z\d\s" + extraChars + "]"
+
+    text = re.sub(regVal , replaceString, rawText)
     return text
     
     
@@ -105,8 +107,10 @@ def numberReplacer(rawText,replaceString = "",consecutive = True,extraChars = ""
     conRegex = ""
     if consecutive:
         conRegex = "+"
-        
-    text = re.sub("[\d" + extraChars + "]" + conRegex,replaceString,rawText)
+
+    regVal = "[\d" + extraChars + "]" + conRegex
+
+    text = re.sub(regVal,replaceString,rawText)
     
     return text 
 
