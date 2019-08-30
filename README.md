@@ -1,2 +1,2 @@
 # NeuroVec
-Research on Word Embeddings for neuroscience
+Utilizing NLP and data processing to conduct research on Word Embeddings for neuroscience
