@@ -120,7 +120,7 @@ def numberReplacer(rawText,replaceString = "",consecutive = True,extraChars = ""
 def lemmatizeWords(words,utilizeWordType = True):
 
     """
-    Returns text with all numeric values replaced
+    Returns text with all words lemmatized
 
     @type  rawText: list(string)
     @param rawText: Set of words to be lemmatized.
