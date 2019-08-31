@@ -1,6 +1,7 @@
 from nltk import sent_tokenize, word_tokenize, pos_tag
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 import re
 
@@ -149,3 +150,10 @@ def get_wordnet_pos(word):
                 "R": wordnet.ADV}
 
     return tag_dict.get(tag, wordnet.NOUN)
+
+
+def removeStopWords(sentence):
+    stop_words = set(stopwords.words('english')) 
+    
+    filtered_sentence = [word for word in sentence if word not in stop_words] 
+    return filtered_sentence
