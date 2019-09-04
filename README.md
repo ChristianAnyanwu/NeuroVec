@@ -13,7 +13,7 @@ This repository utilizes NLP and Matrix Algebra to generate domain specific vect
 
 ## PCA and Cluster Analysis
 ![PCA diagram](images/PCA_4_groups_from_embeddings.png)<br>
-This PCA embedding shows 4 groups of terms projected onto a 2D plane. After running a K-means grouping algorithm you can see a clear division that the 4 disparate groups were correctly grouped. The groups in this case were:
+This PCA embedding shows 4 groups of terms projected onto a 2D plane. After running a K-means grouping algorithm you can see a clear division that the 4 disparate groups were correctly grouped. <br><br>The groups in this case were:<br>
 neurotransmitters = ['dopamine','acetylcholine','glutamate','gaba','oxytocin']<br>
 partsOfNeuron = ['dendrite','axon','neuron','nucleus']<br>
 partsOfBody = ['lung','kidney','stomach','bladder','pancreas','liver']<br>
