@@ -20,6 +20,7 @@ partsOfBody = ['lung','kidney','stomach','bladder','pancreas','liver']<br>
 partsOfBrain = ['cerebrum','cerebellum','brainstem','parietal','hippocampus']<br>
 
 ## Network/Graph analysis
+Concepts were connected based on cosine similarity. Those with a high cosine similarity were connected then Gephi was used to display and untangle the network.<br>
 ![Neuron network diagram](images/neuron_network_picture.png)<br>
 ![Neuronal network diagram](images/neuronal_network_picture.png)<br>
 ![Cortex network diagram](images/cortex_network_picture.png)<br>
