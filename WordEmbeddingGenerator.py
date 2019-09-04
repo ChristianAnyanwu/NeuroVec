@@ -120,12 +120,11 @@ def plot_embeddings(M_reduced, word2Ind, words):
 
 
 def readWordFiles(location):
-
         print("Loading files")
         wordSentences = []
         files = glob.glob(location)
         for file in files:
-        with open(file, 'rb') as f:
+            with open(file, 'rb') as f:
                 x = pickle.load(f)
                 wordSentences.extend(x)
 
