@@ -1,5 +1,5 @@
 ![Brain and Vectors](images/NeuroVecImage.png)
-Utilizing NLP and data processing to conduct research on Word Embeddings for neuroscience
+Utilizing NLP and data processing to conduct research on Word Embeddings for Neuroscience
 
 This repository utilizes NLP and Matrix Algebra to generate domain specific vector representations of words that are useful for machine learning applications. 
 
